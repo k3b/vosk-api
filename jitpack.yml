@@ -1,9 +1,9 @@
 jdk:
   - openjdk8
 before_install:
-  yes | sdkmanager --install "ndk;sdkmanager --install "ndk;21.3.6528147"
-  yes | sdkmanager --install "build-tools;30.0.2"
-  yes | sdkmanager --install "platforms;android-30"
+  - yes | sdkmanager --install "ndk;sdkmanager --install "ndk;21.3.6528147"
+  - yes | sdkmanager --install "build-tools;30.0.2"
+  - yes | sdkmanager --install "platforms;android-30"
 
 install:
   - echo "Running a custom install command"
