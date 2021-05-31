@@ -1,3 +1,12 @@
+apply plugin: 'com.android.library'
+// apply plugin: 'maven-publishing'
+apply plugin: 'com.github.dcendents.android-maven'
+
+// apply plugin: 'com.github.dcendents.android-maven'
+
+// group = "com.github.k3b"
+// version = "L2.1.28"
+
 def archiveName = "vosk-android"
 def pomName = "Vosk Android"
 def pomDescription = "Vosk speech recognition library for Android"
