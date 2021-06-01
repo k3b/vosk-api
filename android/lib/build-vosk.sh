@@ -15,7 +15,7 @@
 # limitations under the License.
 
 if [ "x$ANDROID_NDK_HOME" == "x" ]; then
-  if [ "xANDROID_HOME" == "x" ]; then
+  if [ "x$ANDROID_HOME" == "x" ]; then
       echo "ANDROID_NDK_HOME environment variable is undefined, define it with local.properties or with export"
       exit 1
   fi
